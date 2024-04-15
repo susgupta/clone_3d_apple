@@ -18,6 +18,12 @@ body {
   user-select: none;
 }
 
+/* need to add this to support touch action for mobile */
+main {
+  touch-action: pan-y;
+  overflow-y: auto;
+}
+
 canvas {
   touch-action: none;
 }
